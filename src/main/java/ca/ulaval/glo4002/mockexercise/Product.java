@@ -10,4 +10,16 @@ public class Product {
         this.name = name;
         this.price = price;
     }
+
+    public String getSku() {
+        return sku;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 }

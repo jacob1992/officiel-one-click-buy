@@ -11,4 +11,12 @@ public class Invoice {
         this.clientEmail = clientEmail;
         this.lines = lines;
     }
+
+    public String getClientEmail() {
+        return clientEmail;
+    }
+
+    public List<InvoiceLine> getLines() {
+        return lines;
+    }
 }
